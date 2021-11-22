@@ -1,0 +1,50 @@
+.reviews-container{
+  margin: 30px 50px;
+  display: flex;
+  gap:50px;
+
+  .review-card{
+    width: calc(100% / 3);
+    padding: 40px;
+    opacity: 0.5;
+
+    &.active{
+      opacity: 1;
+    }
+
+    p{
+      padding: 20px 0
+    }
+
+    .review-author{
+      display: flex;
+      align-items: center;
+
+      img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+      }
+
+      .author-info{
+        margin-left:30px;
+      }
+    }
+  }
+}
+
+.reviews-nav-dots{
+  display: flex;
+  justify-content: center;
+
+  i{
+    margin-left: 20px;
+    opacity: 0.5;
+    transform: scale(0.5);
+
+    &.active{
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
