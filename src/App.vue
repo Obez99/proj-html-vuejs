@@ -6,6 +6,7 @@
     <SmartTutoring></SmartTutoring>
     <VideoSection></VideoSection>
     <TopLearners></TopLearners>
+    <Statistics></Statistics>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Courses from "./components/Courses.vue";
 import SmartTutoring from "./components/SmartTutoring.vue";
 import VideoSection from "./components/VideoSection.vue";
 import TopLearners from "./components/TopLearners.vue";
+import Statistics from "./components/Statistics.vue";
 export default {
   name: "App",
   components: {
@@ -25,6 +27,7 @@ export default {
     SmartTutoring,
     VideoSection,
     TopLearners,
+    Statistics,
   },
 };
 </script>
