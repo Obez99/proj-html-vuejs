@@ -1,0 +1,18 @@
+@import "./variables.scss";
+
+.smart-tutoring-header{
+  margin-bottom: 50px;
+}
+
+.container{
+  .benefit-description{
+    h3{
+      padding: 20px 0;
+    }
+
+    a{
+      color: $dark-purple;
+      border:0;
+    }
+  }
+}
