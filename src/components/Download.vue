@@ -25,7 +25,7 @@
         <div class="col-7 text-end position-relative mb-5">
           <img
             src="../assets/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
-            alt=""
+            alt="jumbo-image"
             class="rounded-circle"
           />
           <img
@@ -57,27 +57,27 @@
       <div class="clients-list mt-5">
         <ul class="row align-items-center">
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-01.png" alt="" />
+            <img src="../assets/client-logo-01.png" alt="stylus-logo" />
           </li>
 
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-02.png" alt="" />
+            <img src="../assets/client-logo-02.png" alt="company-logo" />
           </li>
 
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-03.png" alt="" />
+            <img src="../assets/client-logo-03.png" alt="brook-logo" />
           </li>
 
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-04.png" alt="" />
+            <img src="../assets/client-logo-04.png" alt="pencil-logo" />
           </li>
 
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-05.png" alt="" />
+            <img src="../assets/client-logo-05.png" alt="itsalive-logo" />
           </li>
 
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-06.png" alt="" />
+            <img src="../assets/client-logo-06.png" alt="sixbase-logo" />
           </li>
         </ul>
       </div>
@@ -87,34 +87,10 @@
 
 <script>
 export default {
-  name: "DownloadSection",
+  name: "Download",
 };
 </script>
 
 <style lang="scss">
-.fx1,
-.fx2,
-.fx3,
-.fx4 {
-  z-index: -1;
-}
-.fx1 {
-  left: 80px;
-  top: 150px;
-}
-
-.fx2 {
-  left: 80px;
-  bottom: 150px;
-}
-
-.fx3 {
-  bottom: 0;
-  right: 80px;
-}
-
-.fx4 {
-  top: 100px;
-  right: -100px;
-}
+@import "../styles/download.scss";
 </style>

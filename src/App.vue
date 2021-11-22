@@ -1,16 +1,18 @@
 <template>
   <div id="app">
     <Header></Header>
-    <DownloadSection></DownloadSection>
+    <Download></Download>
+    <Courses></Courses>
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
-import DownloadSection from "./components/DownloadSection.vue";
+import Download from "./components/Download.vue";
+import Courses from "./components/Courses.vue";
 export default {
   name: "App",
-  components: { Header, DownloadSection },
+  components: { Header, Download, Courses },
 };
 </script>
 
