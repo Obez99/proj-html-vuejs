@@ -1,0 +1,37 @@
+.video-container{
+  width: 670px;
+  height: 450px;
+  background-image: url(../assets/home-2-popup-video-poster.jpg);
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+
+  .youtube-button{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+  }
+  
+  .fx5, .fx6{
+    z-index: -1;
+    position: absolute;
+  }
+
+  .fx5{
+    bottom: -110px;
+    right: -15px;
+  }
+
+  .fx6{
+    top:50px;
+    left: -100px
+  }
+
+}
+
+.video-side{
+  p{
+    padding: 30px 0;
+  }
+}

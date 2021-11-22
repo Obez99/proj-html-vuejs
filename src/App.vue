@@ -4,6 +4,7 @@
     <Download></Download>
     <Courses></Courses>
     <SmartTutoring></SmartTutoring>
+    <VideoSection></VideoSection>
   </div>
 </template>
 
@@ -12,9 +13,10 @@ import Header from "./components/Header.vue";
 import Download from "./components/Download.vue";
 import Courses from "./components/Courses.vue";
 import SmartTutoring from "./components/SmartTutoring.vue";
+import VideoSection from "./components/VideoSection.vue";
 export default {
   name: "App",
-  components: { Header, Download, Courses, SmartTutoring },
+  components: { Header, Download, Courses, SmartTutoring, VideoSection },
 };
 </script>
 
