@@ -36,6 +36,7 @@
 .reviews-nav-dots{
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 
   i{
     margin-left: 20px;
@@ -46,5 +47,27 @@
       opacity: 1;
       transform: scale(1);
     }
+  }
+}
+
+.top-learners-footer{
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img{
+    position: absolute;
+  }
+
+  .fx7{
+    left:0;
+    bottom:60px
+  }
+
+  .fx8{
+    right:0;
+    bottom:0;
   }
 }

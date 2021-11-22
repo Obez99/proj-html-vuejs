@@ -71,6 +71,18 @@
       <i class="fa fa-circle"></i>
       <i class="fa fa-circle"></i>
     </div>
+
+    <!--Get started sub-section!-->
+    <div class="container">
+      <div class="top-learners-footer">
+        <h5>Start today for getting Online Certification</h5>
+        <h2>You can be your own guiding star with our help!</h2>
+        <a href="#" class="btn btn-primary">Get started now</a>
+
+        <img src="../assets/maxcoach-shape-01.png" alt="" class="fx7" />
+        <img src="../assets/maxcoach-shape-02.png" alt="" class="fx8" />
+      </div>
+    </div>
   </section>
 </template>
 
