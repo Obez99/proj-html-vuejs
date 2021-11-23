@@ -13,6 +13,10 @@
     a{
       color: $dark-purple;
       border:0;
+
+      &:hover{
+        color: $primary-color
+      }
     }
   }
 }

@@ -1,13 +1,26 @@
 @import "./variables.scss";
 
-.course-container{
-  padding: 50px 0;
-  cursor: pointer;
+.row{
+  .course-container{
+    margin-top: 50px;
+    padding: 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
 
-  &:hover{
-    .course-description{
-      h5{
-        color:$primary-color
+    h4{
+      color:$primary-color;
+    }
+
+    &:hover{
+      background-color: white;
+      .course-description{
+        h5{
+        transition: color 0.2s;
+          &:hover{
+              color:$primary-color
+          }
+        }
       }
     }
   }
@@ -30,5 +43,9 @@
     margin-right:60px;
 
   }
+}
+
+.all-courses-btn{
+  margin-top:30px
 }
 

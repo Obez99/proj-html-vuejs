@@ -92,7 +92,7 @@
     </div>
 
     <!--All courses button!-->
-    <div class="container text-center">
+    <div class="container text-center all-courses-btn">
       <a class="btn btn-primary" href="#"
         >View all courses <i class="fa fa-long-arrow-right"></i
       ></a>
