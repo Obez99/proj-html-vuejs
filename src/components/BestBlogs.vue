@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section style="background-color: #f5f1ed">
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-4 most-viewed-list">

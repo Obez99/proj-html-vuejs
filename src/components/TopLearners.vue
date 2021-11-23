@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section style="background-color: #f8f8f8">
     <!--Section title!-->
     <div class="top-learners-header text-center">
       <p>GREAT WORDS ABOUT MAXCOACH</p>

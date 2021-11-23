@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section style="background-color: #f5f7fa">
     <!--Section header!-->
     <div class="text-center">
       <p>STIMULATED TO LEARN?</p>

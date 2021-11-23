@@ -9,6 +9,7 @@
     <Statistics></Statistics>
     <BestBlogs></BestBlogs>
     <Newsletters></Newsletters>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import TopLearners from "./components/TopLearners.vue";
 import Statistics from "./components/Statistics.vue";
 import BestBlogs from "./components/BestBlogs.vue";
 import Newsletters from "./components/Newsletters.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
@@ -34,6 +36,7 @@ export default {
     Statistics,
     BestBlogs,
     Newsletters,
+    Footer,
   },
 };
 </script>
