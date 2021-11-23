@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container">
+    <div class="container newsletters-container">
       <div class="row justify-content-center">
         <div class="col-6 text-center">
           <h2>Subscribe <a href="#">Newsletters</a></h2>
@@ -15,8 +15,9 @@
         </div>
       </div>
 
-      <img src="../../assets/maxcoach-shape-09.png" alt="" class="fx6" />
+      <img src="../../assets/maxcoach-shape-09.png" class="fx6" alt="" />
       <img src="../../assets/maxcoach-shape-02.png" class="fx7" alt="" />
+      <div class="empty-circle fx12"></div>
     </div>
   </section>
 </template>

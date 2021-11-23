@@ -13,8 +13,8 @@
     transform:translate(-50%,-50%)
   }
   
-  .fx5, .fx6{
-    z-index: -1;
+  .fx5, .fx6,.fx8, .fx9{
+    z-index: -2;
     position: absolute;
   }
 
@@ -25,9 +25,34 @@
 
   .fx6{
     top:50px;
-    left: -100px
+    left: -100px;
+    z-index:-1
   }
 
+  .fx8{
+    top:-100px;
+    left:-80px;
+    fill: #e5c791
+  }
+
+  .fx9{
+    transform: scale(0.8);
+    top:-50px;
+    right:-120px;
+    border-color: #c99f8e;
+    opacity: 0.6;
+  }
+
+}
+
+.wave{
+  transform: rotate(90deg);
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  bottom:0;
+  right: -150px;
+  fill:#f8f8f8;
 }
 
 .video-side{

@@ -22,34 +22,24 @@
         </div>
 
         <!--Big image!-->
-        <div class="col-7 text-end position-relative mb-5">
+        <div class="col-7 text-end position-relative mb-5 jumbo-image">
           <img
             src="../../assets/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
             alt="jumbo-image"
             class="rounded-circle"
           />
-          <img
-            src="../../assets/maxcoach-shape-08.png"
-            alt=""
-            class="position-absolute fx1"
-          />
-          <img
-            src="../../assets/maxcoach-shape-08.png"
-            alt=""
-            class="position-absolute fx2"
-          />
+          <img src="../../assets/maxcoach-shape-08.png" alt="" class="fx1" />
+          <img src="../../assets/maxcoach-shape-08.png" alt="" class="fx2" />
 
           <img
             src="../../assets/maxcoach-shape-07-150x150.png"
             alt=""
-            class="position-absolute fx3"
+            class="fx3"
           />
 
-          <img
-            src="../../assets/maxcoach-shape-02.png"
-            alt=""
-            class="position-absolute fx4"
-          />
+          <img src="../../assets/maxcoach-shape-02.png" alt="" class="fx4" />
+
+          <div class="empty-circle fx10"></div>
         </div>
       </div>
 

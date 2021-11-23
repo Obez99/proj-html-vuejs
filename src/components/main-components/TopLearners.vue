@@ -81,6 +81,7 @@
 
         <img src="../../assets/maxcoach-shape-01.png" alt="" class="fx7" />
         <img src="../../assets/maxcoach-shape-02.png" alt="" class="fx8" />
+        <div class="empty-circle fx11"></div>
       </div>
     </div>
   </section>

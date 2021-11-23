@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .container{
   position: relative;
   
@@ -21,15 +23,24 @@
     }
   }
 
+.newsletters-container{
+  .fx6, .fx7, .fx12{
+    position: absolute;
+    right: 0;
+  }
+  .fx6{
+    top:-100px;
+  }
 
-.fx6, .fx7{
-  position: absolute;
-  right: 0;
-}
-.fx6{
-  top:-100px;
-}
+  .fx7{
+    top:50px
+  }
 
-.fx7{
-  top:50px
+  .fx12{
+    transform: scale(0.6);
+    left:0;
+    top:80px;
+    border-color: $primary-color;
+    opacity: 0.6;
+  }
 }

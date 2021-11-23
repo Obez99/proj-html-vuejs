@@ -1,8 +1,11 @@
+.jumbo-image{
 .fx1,
 .fx2,
 .fx3,
-.fx4 {
+.fx4,
+.fx10 {
   z-index: -1;
+  position: absolute;
 }
 .fx1 {
   left: 80px;
@@ -22,4 +25,14 @@
 .fx4 {
   top: 100px;
   right: -100px;
+}
+
+
+.fx10{
+  z-index: 0;
+  transform: scale(0.7);
+  left:130px;
+  bottom:120px;
+  border-color: #e5c791;
+}
 }
