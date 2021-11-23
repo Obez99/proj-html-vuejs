@@ -6,6 +6,7 @@ a {
   text-decoration: none;
   border-bottom: 1px solid $light-gray ;
   font-weight: bold;
+  transition: color 0.2s;
 }
 
 ul{
@@ -24,6 +25,11 @@ section{
 
 h1, h2,h3, h4, h5, h6{
   color:$dark-purple;
+
+  a{
+    border:0;
+    font-weight: normal;
+  }
 }
 
 .btn{
@@ -39,4 +45,13 @@ h1, h2,h3, h4, h5, h6{
   &:hover{
     background-color: $dark-purple;
   }
+}
+
+p{
+  color:gray;
+  font-weight: 500;
+}
+
+span, small{
+  color:gray;
 }

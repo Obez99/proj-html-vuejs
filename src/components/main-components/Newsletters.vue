@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-6 text-center">
-          <h2>Subscribe Newsletters</h2>
+          <h2>Subscribe <a href="#">Newsletters</a></h2>
           <p>
             Enter your email address to register to our newsletter subscription
             delivered on a regular basis!

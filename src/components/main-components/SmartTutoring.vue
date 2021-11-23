@@ -2,7 +2,7 @@
   <section>
     <div class="smart-tutoring-header text-center">
       <p>MAXCOACH AVAILABLE COURSES</p>
-      <h2>Access Smart Tutoring Program For Benefits</h2>
+      <h2>Access <a href="#">Smart Tutoring</a> Program For Benefits</h2>
     </div>
 
     <div class="container">

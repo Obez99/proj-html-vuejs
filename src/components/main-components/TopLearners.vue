@@ -3,7 +3,7 @@
     <!--Section title!-->
     <div class="top-learners-header text-center">
       <p>GREAT WORDS ABOUT MAXCOACH</p>
-      <h2>Our top learners' verbatim</h2>
+      <h2>Our <a href="#">top learners'</a> verbatim</h2>
     </div>
 
     <!--Reviews container!-->
@@ -75,7 +75,7 @@
     <!--Get started sub-section!-->
     <div class="container">
       <div class="top-learners-footer">
-        <h5>Start today for getting Online Certification</h5>
+        <h5>Start today for getting <a href="#">Online Certification</a></h5>
         <h2>You can be your own guiding star with our help!</h2>
         <a href="#" class="btn btn-primary">Get started now</a>
 

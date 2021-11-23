@@ -16,7 +16,7 @@
 
         <div class="video-side col-4">
           <p>GET STARTED <strong>EFFORTLESSLY</strong></p>
-          <h1>Enjoy Our Companionship</h1>
+          <h1>Enjoy Our <a href="#">Companionship</a></h1>
           <p>
             Sneek peek into what has in store for you on our online teaching and
             mentoring portal. Seek for some hidden hints of early-bird rewards

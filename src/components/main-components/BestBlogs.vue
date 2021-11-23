@@ -5,7 +5,7 @@
         <div class="col-4 most-viewed-list">
           <div>
             <p>ENJOYABLE INSIGHTS</p>
-            <h2>Most Viewed Best Blogs</h2>
+            <h2>Most Viewed <a href="#">Best Blogs</a></h2>
           </div>
 
           <ul>
