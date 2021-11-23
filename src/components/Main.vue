@@ -8,6 +8,7 @@
     <Statistics></Statistics>
     <BestBlogs></BestBlogs>
     <Newsletters></Newsletters>
+    <SideBar></SideBar>
   </main>
 </template>
 
@@ -20,6 +21,7 @@ import TopLearners from "./main-components/TopLearners.vue";
 import Statistics from "./main-components/Statistics.vue";
 import BestBlogs from "./main-components/BestBlogs.vue";
 import Newsletters from "./main-components/Newsletters.vue";
+import SideBar from "./main-components/SideBar.vue";
 export default {
   name: "Main",
   components: {
@@ -31,6 +33,7 @@ export default {
     Statistics,
     BestBlogs,
     Newsletters,
+    SideBar,
   },
 };
 </script>
