@@ -1,17 +1,60 @@
-.insight{
+@import "./variables.scss";
+.row{
+  .insight-card{
+  border-radius: 5px;
+  background-color: white;
+  padding:0;
+  overflow: hidden;
+    img{
+      width: 100%;
+    }
 
-  img{
-    width: 100%;
-  }
+    .insight-card-body{
+      padding:15px;
+      margin-bottom: 20px;
 
-  .insight-body{
-    padding:15px;
+      h5{
+        margin-bottom: 30px;
+      }
 
-    span{
-      margin-right: 30px;
-      i{
-        margin-right: 10px;
+      span{
+        margin-right: 30px;
+
+        i{
+          margin-right: 10px;
+        }
       }
     }
   }
+}
+
+.most-viewed-list{
+  h2{
+    margin-bottom:45px;
+  }
+
+  ul{
+    position: relative;
+
+  li{
+    font-weight: bold;
+    margin-bottom: 20px;
+
+    a,i{
+      color:$dark-purple;
+    }
+
+    i{
+      position: absolute;
+      left:0;
+      padding-top: 5px;
+    }
+
+    a{
+      text-decoration: none;
+      border:0;
+    }
+
+  }
+}
 }

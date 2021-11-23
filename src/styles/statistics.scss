@@ -2,23 +2,26 @@
 .nopadding{
   padding:0;
   
-.statistic{
-  text-align: center;
-  padding: 100px 0;
-  border: 1px solid lightgray;
-  
-  h4{
-    margin: 0 60px
-  }
-  span{
-    font-size: 60px;
-    font-weight: bold;
-    color: $primary-color;
-  }
+  ul{
+    padding:0;
+  .statistic{
+    text-align: center;
+    padding: 100px 0;
+    border: 1px solid lightgray;
+      
+      h4{
+        margin: 0 60px
+      }
+      span{
+        font-size: 60px;
+        font-weight: bold;
+        color: $primary-color;
+      }
 
-  p{
-    font-size: 15px;
-    font-weight: bold;
+      p{
+        font-size: 15px;
+        font-weight: bold;
+      }
+    }
   }
-}
 }

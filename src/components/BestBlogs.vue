@@ -4,38 +4,39 @@
       <div class="row justify-content-between">
         <div class="col-4 most-viewed-list">
           <div>
-            <p>Enjoyable Insights</p>
+            <p>ENJOYABLE INSIGHTS</p>
             <h2>Most Viewed Best Blogs</h2>
           </div>
 
           <ul>
             <li>
-              <i class="fa fa-long-arrow-right"></i>Become a Better Blogger:
-              Content Planning
+              <i class="fa fa-long-arrow-right"></i
+              ><a href="#">Become a Better Blogger: Content Planning</a>
             </li>
             <li>
-              <i class="fa fa-long-arrow-right"></i>Promoting Your Online
-              Business on Pinterest
+              <i class="fa fa-long-arrow-right"></i
+              ><a href="#">Promoting Your Online Business on Pinterest</a>
             </li>
             <li>
-              <i class="fa fa-long-arrow-right"></i>Gamification and Game-Based
-              Learning
+              <i class="fa fa-long-arrow-right"></i
+              ><a href="#">Gamification and Game-Based Learning</a>
             </li>
             <li>
-              <i class="fa fa-long-arrow-right"></i>Designing an Online Course
-              from Expert's Perspective
-            </li>
-            <li>
-              <i class="fa fa-long-arrow-right"
-                >Why Online Courses Are the Future of Education</i
+              <i class="fa fa-long-arrow-right"></i
+              ><a href="#"
+                >Designing an Online Course from Expert's Perspective</a
               >
+            </li>
+            <li>
+              <i class="fa fa-long-arrow-right"></i
+              ><a href="#">Why Online Courses Are the Future of Education</a>
             </li>
           </ul>
         </div>
 
-        <div class="col-3 insight">
+        <div class="col-3 insight-card">
           <img src="../assets/artist-blog-03-480x352.jpeg" alt="" />
-          <div class="insight-body">
+          <div class="insight-card-body">
             <p>ARTIST</p>
             <h5>Brush Strokes Energize Trees in Paintings</h5>
             <span><i class="fa fa-calendar-o"></i>May 15, 2020</span>
@@ -43,9 +44,9 @@
           </div>
         </div>
 
-        <div class="col-3 insight">
+        <div class="col-3 insight-card">
           <img src="../assets/artist-blog-01-480x352.jpg" alt="" />
-          <div class="insight-body">
+          <div class="insight-card-body">
             <p>ARTIST</p>
             <h5>Pocket-Sized Notebooks Hold Miniature Paintings</h5>
             <span><i class="fa fa-calendar-o"></i>May 15, 2020</span>
