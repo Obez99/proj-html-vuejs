@@ -9,7 +9,7 @@
       <div class="row justify-content-between">
         <div class="col-3">
           <img
-            src="../assets/home-2-image-box-01.png"
+            src="../../assets/home-2-image-box-01.png"
             alt="customize-preferences"
           />
 
@@ -25,7 +25,7 @@
 
         <div class="col-3">
           <img
-            src="../assets/about-us-02-image-box-02.png"
+            src="../../assets/about-us-02-image-box-02.png"
             alt="customize-preferences"
           />
 
@@ -43,7 +43,7 @@
 
         <div class="col-3">
           <img
-            src="../assets/home-2-image-box-03.png"
+            src="../../assets/home-2-image-box-03.png"
             alt="customize-preferences"
           />
 
@@ -68,5 +68,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/smarttutoring.scss";
+@import "../../styles/smarttutoring.scss";
 </style>

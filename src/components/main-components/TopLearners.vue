@@ -19,7 +19,7 @@
 
         <!--Card author!-->
         <div class="review-author">
-          <img src="../assets/testimonial-avata-03.jpg" alt="mina-hollace" />
+          <img src="../../assets/testimonial-avata-03.jpg" alt="mina-hollace" />
           <div class="author-info">
             <h6>FLORENCE THEMES</h6>
             <small>/ Multimedia Admin</small>
@@ -36,7 +36,7 @@
         </p>
 
         <div class="review-author">
-          <img src="../assets/testimonial-avata-02.jpg" alt="mina-hollace" />
+          <img src="../../assets/testimonial-avata-02.jpg" alt="mina-hollace" />
           <div class="author-info">
             <h6>MINA HOLLACE</h6>
             <small>/ Freelancer</small>
@@ -55,7 +55,7 @@
         </p>
 
         <div class="review-author">
-          <img src="../assets/testimonial-avata-04.jpg" alt="mina-hollace" />
+          <img src="../../assets/testimonial-avata-04.jpg" alt="mina-hollace" />
           <div class="author-info">
             <h6>MADLEY PONDOR</h6>
             <small>/ IT Specialist</small>
@@ -79,8 +79,8 @@
         <h2>You can be your own guiding star with our help!</h2>
         <a href="#" class="btn btn-primary">Get started now</a>
 
-        <img src="../assets/maxcoach-shape-01.png" alt="" class="fx7" />
-        <img src="../assets/maxcoach-shape-02.png" alt="" class="fx8" />
+        <img src="../../assets/maxcoach-shape-01.png" alt="" class="fx7" />
+        <img src="../../assets/maxcoach-shape-02.png" alt="" class="fx8" />
       </div>
     </div>
   </section>
@@ -93,5 +93,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/toplearners.scss";
+@import "../../styles/toplearners.scss";
 </style>

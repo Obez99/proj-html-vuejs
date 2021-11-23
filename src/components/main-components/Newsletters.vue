@@ -15,8 +15,8 @@
         </div>
       </div>
 
-      <img src="../assets/maxcoach-shape-09.png" alt="" class="fx6" />
-      <img src="../assets/maxcoach-shape-02.png" class="fx7" alt="" />
+      <img src="../../assets/maxcoach-shape-09.png" alt="" class="fx6" />
+      <img src="../../assets/maxcoach-shape-02.png" class="fx7" alt="" />
     </div>
   </section>
 </template>
@@ -28,5 +28,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/newsletters.scss";
+@import "../../styles/newsletters.scss";
 </style>

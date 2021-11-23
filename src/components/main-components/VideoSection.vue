@@ -5,12 +5,12 @@
         <div class="col-7">
           <div class="video-container">
             <img
-              src="../assets/icon-youtube-play.png"
+              src="../../assets/icon-youtube-play.png"
               class="youtube-button"
               alt="play-video"
             />
-            <img src="../assets/maxcoach-shape-07.png" class="fx5" alt="" />
-            <img src="../assets/maxcoach-shape-05.png" class="fx6" alt="" />
+            <img src="../../assets/maxcoach-shape-07.png" class="fx5" alt="" />
+            <img src="../../assets/maxcoach-shape-05.png" class="fx6" alt="" />
           </div>
         </div>
 
@@ -38,5 +38,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/videosection.scss";
+@import "../../styles/videosection.scss";
 </style>

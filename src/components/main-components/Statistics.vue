@@ -37,5 +37,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/statistics.scss";
+@import "../../styles/statistics.scss";
 </style>

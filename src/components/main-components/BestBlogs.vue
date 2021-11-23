@@ -35,7 +35,7 @@
         </div>
 
         <div class="col-3 insight-card">
-          <img src="../assets/artist-blog-03-480x352.jpeg" alt="" />
+          <img src="../../assets/artist-blog-03-480x352.jpeg" alt="" />
           <div class="insight-card-body">
             <p>ARTIST</p>
             <h5>Brush Strokes Energize Trees in Paintings</h5>
@@ -45,7 +45,7 @@
         </div>
 
         <div class="col-3 insight-card">
-          <img src="../assets/artist-blog-01-480x352.jpg" alt="" />
+          <img src="../../assets/artist-blog-01-480x352.jpg" alt="" />
           <div class="insight-card-body">
             <p>ARTIST</p>
             <h5>Pocket-Sized Notebooks Hold Miniature Paintings</h5>
@@ -65,5 +65,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/bestblogs.scss";
+@import "../../styles/bestblogs.scss";
 </style>

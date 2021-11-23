@@ -24,29 +24,29 @@
         <!--Big image!-->
         <div class="col-7 text-end position-relative mb-5">
           <img
-            src="../assets/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
+            src="../../assets/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
             alt="jumbo-image"
             class="rounded-circle"
           />
           <img
-            src="../assets/maxcoach-shape-08.png"
+            src="../../assets/maxcoach-shape-08.png"
             alt=""
             class="position-absolute fx1"
           />
           <img
-            src="../assets/maxcoach-shape-08.png"
+            src="../../assets/maxcoach-shape-08.png"
             alt=""
             class="position-absolute fx2"
           />
 
           <img
-            src="../assets/maxcoach-shape-07-150x150.png"
+            src="../../assets/maxcoach-shape-07-150x150.png"
             alt=""
             class="position-absolute fx3"
           />
 
           <img
-            src="../assets/maxcoach-shape-02.png"
+            src="../../assets/maxcoach-shape-02.png"
             alt=""
             class="position-absolute fx4"
           />
@@ -57,27 +57,27 @@
       <div class="clients-list mt-5">
         <ul class="row align-items-center">
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-01.png" alt="stylus-logo" />
+            <img src="../../assets/client-logo-01.png" alt="stylus-logo" />
           </li>
 
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-02.png" alt="company-logo" />
+            <img src="../../assets/client-logo-02.png" alt="company-logo" />
           </li>
 
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-03.png" alt="brook-logo" />
+            <img src="../../assets/client-logo-03.png" alt="brook-logo" />
           </li>
 
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-04.png" alt="pencil-logo" />
+            <img src="../../assets/client-logo-04.png" alt="pencil-logo" />
           </li>
 
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-05.png" alt="itsalive-logo" />
+            <img src="../../assets/client-logo-05.png" alt="itsalive-logo" />
           </li>
 
           <li class="col-2 text-center">
-            <img src="../assets/client-logo-06.png" alt="sixbase-logo" />
+            <img src="../../assets/client-logo-06.png" alt="sixbase-logo" />
           </li>
         </ul>
       </div>
@@ -92,5 +92,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/download.scss";
+@import "../../styles/download.scss";
 </style>

@@ -13,7 +13,7 @@
         <div class="course-container d-flex align-items-center">
           <!--Course image!-->
           <div class="course-image">
-            <img src="../assets/course-02-480x298.jpg" alt="author-course" />
+            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
           </div>
 
           <!--Course description!-->
@@ -26,7 +26,7 @@
         </div>
         <div class="course-container d-flex align-items-center">
           <div class="course-image">
-            <img src="../assets/course-02-480x298.jpg" alt="author-course" />
+            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
           </div>
 
           <div class="course-description ms-3">
@@ -40,7 +40,7 @@
       <div class="row row-cols-2">
         <div class="course-container d-flex align-items-center">
           <div class="course-image">
-            <img src="../assets/course-02-480x298.jpg" alt="author-course" />
+            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
           </div>
 
           <div class="course-description ms-3">
@@ -52,7 +52,7 @@
         </div>
         <div class="course-container d-flex align-items-center">
           <div class="course-image">
-            <img src="../assets/course-02-480x298.jpg" alt="author-course" />
+            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
           </div>
 
           <div class="course-description ms-3">
@@ -66,7 +66,7 @@
       <div class="row row-cols-2">
         <div class="course-container d-flex align-items-center">
           <div class="course-image">
-            <img src="../assets/course-02-480x298.jpg" alt="author-course" />
+            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
           </div>
 
           <div class="course-description ms-3">
@@ -78,7 +78,7 @@
         </div>
         <div class="course-container d-flex align-items-center">
           <div class="course-image">
-            <img src="../assets/course-02-480x298.jpg" alt="author-course" />
+            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
           </div>
 
           <div class="course-description ms-3">
@@ -107,5 +107,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/courses.scss";
+@import "../../styles/courses.scss";
 </style>
