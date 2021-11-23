@@ -8,6 +8,7 @@
     <TopLearners></TopLearners>
     <Statistics></Statistics>
     <BestBlogs></BestBlogs>
+    <Newsletters></Newsletters>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import VideoSection from "./components/VideoSection.vue";
 import TopLearners from "./components/TopLearners.vue";
 import Statistics from "./components/Statistics.vue";
 import BestBlogs from "./components/BestBlogs.vue";
+import Newsletters from "./components/Newsletters.vue";
 export default {
   name: "App",
   components: {
@@ -31,6 +33,7 @@ export default {
     TopLearners,
     Statistics,
     BestBlogs,
+    Newsletters,
   },
 };
 </script>

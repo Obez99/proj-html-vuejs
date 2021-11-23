@@ -1,0 +1,35 @@
+.container{
+
+  position: relative;
+  form{
+    display: flex;
+    align-items: center;
+
+      input{
+        flex-grow:1;
+        border-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      .btn{
+        min-width: 0;
+        padding: 15px 30px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+    
+    }
+  }
+
+
+.fx6, .fx7{
+  position: absolute;
+  right: 0;
+}
+.fx6{
+  top:-100px;
+}
+
+.fx7{
+  top:50px
+}
