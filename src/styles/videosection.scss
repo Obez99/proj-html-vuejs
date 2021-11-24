@@ -2,9 +2,16 @@
   width: 670px;
   height: 450px;
   background-image: url(../../assets/home-2-popup-video-poster.jpg);
+  background-size: 700px;
+  background-position: center;
   border-radius: 10px;
   cursor: pointer;
   position: relative;
+  transition: all 1s;
+
+  &:hover{
+    background-size: 800px;
+  }
 
   .youtube-button{
     position:absolute;
