@@ -11,27 +11,20 @@
         </p>
       </li>
     </ul>
-    <ul class="social-links">
-      <li>
-        <a href="#"><i class="fa fa-facebook-square"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-      </li>
-      <li>
-        <a href="#"><i class="fa fa-linkedin-square"></i></a>
-      </li>
-    </ul>
+
+    <SocialMediaLinks :socialMediaList="socialMediaList"></SocialMediaLinks>
   </div>
 </template>
 
 <script>
+import SocialMediaLinks from "./SocialMediaLinks.vue";
 export default {
   name: "Address",
-  props: { addressList: Array },
+  components: { SocialMediaLinks },
+  props: {
+    addressList: Array,
+    socialMediaList: Array,
+  },
 };
 </script>
 

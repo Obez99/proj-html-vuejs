@@ -1,7 +1,10 @@
 <template>
   <div class="container">
     <div class="row">
-      <Address :addressList="addressList"></Address>
+      <Address
+        :addressList="addressList"
+        :socialMediaList="socialMediaList"
+      ></Address>
       <Explore :exploreList="exploreList"></Explore>
       <Information :informationList="informationList"></Information>
     </div>
@@ -17,7 +20,6 @@ export default {
   components: { Address, Explore, Information },
   data() {
     return {
-      pageLink: "https://maxcoach.thememove.com/main",
       addressList: [
         {
           type: "Street",
@@ -74,6 +76,28 @@ export default {
         {
           title: "Terms of services",
           link: "https://maxcoach.thememove.com/main/terms-of-service",
+        },
+      ],
+      socialMediaList: [
+        {
+          name: "facebook",
+          link: "https://www.facebook.com",
+          icon: "fa fa-facebook-square",
+        },
+        {
+          name: "twitter",
+          link: "https://www.twitter.com",
+          icon: "fa fa-twitter",
+        },
+        {
+          name: "instagram",
+          link: "https://www.instagram.com",
+          icon: "fa fa-instagram",
+        },
+        {
+          name: "linkedin",
+          link: "https://www.linkedin.com",
+          icon: "fa fa-linkedin-square",
         },
       ],
     };
