@@ -44,40 +44,46 @@
       </div>
 
       <!--Clients section!-->
-      <div class="clients-list mt-5">
-        <ul class="row align-items-center">
-          <li class="col-2 text-center">
-            <img src="../../assets/client-logo-01.png" alt="stylus-logo" />
-          </li>
-
-          <li class="col-2 text-center">
-            <img src="../../assets/client-logo-02.png" alt="company-logo" />
-          </li>
-
-          <li class="col-2 text-center">
-            <img src="../../assets/client-logo-03.png" alt="brook-logo" />
-          </li>
-
-          <li class="col-2 text-center">
-            <img src="../../assets/client-logo-04.png" alt="pencil-logo" />
-          </li>
-
-          <li class="col-2 text-center">
-            <img src="../../assets/client-logo-05.png" alt="itsalive-logo" />
-          </li>
-
-          <li class="col-2 text-center">
-            <img src="../../assets/client-logo-06.png" alt="sixbase-logo" />
-          </li>
-        </ul>
-      </div>
+      <Clients :clientsList="clientsList"></Clients>
     </div>
   </section>
 </template>
 
 <script>
+import Clients from "./main-sub-components/Clients.vue";
 export default {
   name: "Download",
+  components: { Clients },
+  data() {
+    return {
+      clientsList: [
+        {
+          image: require("../../assets/client-logo-01.png"),
+          name: "stylus",
+        },
+        {
+          image: require("../../assets/client-logo-02.png"),
+          name: "company",
+        },
+        {
+          image: require("../../assets/client-logo-03.png"),
+          name: "brook",
+        },
+        {
+          image: require("../../assets/client-logo-04.png"),
+          name: "pencil",
+        },
+        {
+          image: require("../../assets/client-logo-05.png"),
+          name: "itsalive",
+        },
+        {
+          image: require("../../assets/client-logo-06.png"),
+          name: "sixbase",
+        },
+      ],
+    };
+  },
 };
 </script>
 
