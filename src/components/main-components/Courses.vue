@@ -8,86 +8,12 @@
 
     <!--Courses container!-->
     <div class="container">
-      <div class="row row-cols-2">
-        <!--Course container!-->
-        <div class="course-container d-flex align-items-center">
-          <!--Course image!-->
-          <div class="course-image">
-            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
-          </div>
-
-          <!--Course description!-->
-          <div class="course-description ms-3">
-            <h4>$40.00</h4>
-            <h5>Learning to Write as a Professional Author</h5>
-            <small><i class="fa fa-file-text-o"></i> 20 Lessons</small>
-            <small class="ms-3"><i class="fa fa-user-o"></i> 50 Students</small>
-          </div>
-        </div>
-        <div class="course-container d-flex align-items-center">
-          <div class="course-image">
-            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
-          </div>
-
-          <div class="course-description ms-3">
-            <h4>$40.00</h4>
-            <h5>Learning to Write as a Professional Author</h5>
-            <small><i class="fa fa-file-text-o"></i> 20 Lessons</small>
-            <small class="ms-3"><i class="fa fa-user-o"></i> 50 Students</small>
-          </div>
-        </div>
-      </div>
-      <div class="row row-cols-2">
-        <div class="course-container d-flex align-items-center">
-          <div class="course-image">
-            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
-          </div>
-
-          <div class="course-description ms-3">
-            <h4>$40.00</h4>
-            <h5>Learning to Write as a Professional Author</h5>
-            <small><i class="fa fa-file-text-o"></i> 20 Lessons</small>
-            <small class="ms-3"><i class="fa fa-user-o"></i> 50 Students</small>
-          </div>
-        </div>
-        <div class="course-container d-flex align-items-center">
-          <div class="course-image">
-            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
-          </div>
-
-          <div class="course-description ms-3">
-            <h4>$40.00</h4>
-            <h5>Learning to Write as a Professional Author</h5>
-            <small><i class="fa fa-file-text-o"></i> 20 Lessons</small>
-            <small class="ms-3"><i class="fa fa-user-o"></i> 50 Students</small>
-          </div>
-        </div>
-      </div>
-      <div class="row row-cols-2">
-        <div class="course-container d-flex align-items-center">
-          <div class="course-image">
-            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
-          </div>
-
-          <div class="course-description ms-3">
-            <h4>$40.00</h4>
-            <h5>Learning to Write as a Professional Author</h5>
-            <small><i class="fa fa-file-text-o"></i> 20 Lessons</small>
-            <small class="ms-3"><i class="fa fa-user-o"></i> 50 Students</small>
-          </div>
-        </div>
-        <div class="course-container d-flex align-items-center">
-          <div class="course-image">
-            <img src="../../assets/course-02-480x298.jpg" alt="author-course" />
-          </div>
-
-          <div class="course-description ms-3">
-            <h4>$40.00</h4>
-            <h5>Learning to Write as a Professional Author</h5>
-            <small><i class="fa fa-file-text-o"></i> 20 Lessons</small>
-            <small class="ms-3"><i class="fa fa-user-o"></i> 50 Students</small>
-          </div>
-        </div>
+      <div class="row">
+        <Course
+          v-for="(course, i) in coursesList"
+          :key="i"
+          :course="coursesList[i]"
+        ></Course>
       </div>
     </div>
 
@@ -101,8 +27,58 @@
 </template>
 
 <script>
+import Course from "./main-sub-components/Course.vue";
 export default {
   name: "Courses",
+  components: { Course },
+  data() {
+    return {
+      coursesList: [
+        {
+          name: "Learning to Write as a Professional Author",
+          image: require("../../assets/course-02-480x298.jpg"),
+          price: "$40.00",
+          lessons: 20,
+          students: 50,
+        },
+        {
+          name: "Customer-centric Info-Tech Strategies",
+          image: require("../../assets/stock-full-hd-03-480x298.jpg"),
+          price: null,
+          lessons: 24,
+          students: 769,
+        },
+        {
+          name: "Open Programming Courses for Everyone: Python",
+          image: require("../../assets/stock-full-hd-04-480x298.jpg"),
+          price: "$19.00",
+          lessons: 17,
+          students: 62,
+        },
+        {
+          name: "Academic Listening and Note-taking",
+          image: require("../../assets/stock-full-hd-06-480x298.jpg"),
+          price: "$26.00",
+          lessons: 14,
+          students: 67,
+        },
+        {
+          name: "Master jQuery in a Short Period of Time",
+          image: require("../../assets/course-featured-image-01-480x298.jpg"),
+          price: "$39.00",
+          lessons: 6,
+          students: 51,
+        },
+        {
+          name: "Introduction to Javascript for Beginners",
+          image: require("../../assets/stock-full-hd-05-480x298.jpg"),
+          price: "$59.00",
+          lessons: 14,
+          students: 76,
+        },
+      ],
+    };
+  },
 };
 </script>
 
