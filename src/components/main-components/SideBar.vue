@@ -1,15 +1,44 @@
 <template>
   <div class="sidebar">
-    <a href="#"><i class="fa fa-list"></i></a>
-    <a href="#"><i class="fa fa-life-ring"></i></a>
-    <a href="#"><i class="fa fa-book"></i></a>
-    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+    <SidebarItem
+      v-for="(item, i) in sidebarItems"
+      :key="i"
+      :item="sidebarItems[i]"
+    ></SidebarItem>
   </div>
 </template>
 
 <script>
+import SidebarItem from "./main-sub-components/SidebarItem.vue";
 export default {
   name: "SideBar",
+  components: { SidebarItem },
+  data() {
+    return {
+      sidebarItems: [
+        {
+          icon: "fa fa-list",
+          title: "",
+          link: "",
+        },
+        {
+          icon: "fa fa-life-ring",
+          title: "",
+          link: "",
+        },
+        {
+          icon: "fa fa-book",
+          title: "",
+          link: "",
+        },
+        {
+          icon: "fa fa-shopping-cart",
+          title: "",
+          link: "",
+        },
+      ],
+    };
+  },
 };
 </script>
 
