@@ -5,8 +5,11 @@
         :addressList="addressList"
         :socialMediaList="socialMediaList"
       ></Address>
-      <Explore :exploreList="exploreList"></Explore>
-      <Information :informationList="informationList"></Information>
+      <Explore :exploreList="exploreList" :mainPath="mainPath"></Explore>
+      <Information
+        :informationList="informationList"
+        :mainPath="mainPath"
+      ></Information>
     </div>
   </div>
 </template>
@@ -20,6 +23,7 @@ export default {
   components: { Address, Explore, Information },
   data() {
     return {
+      mainPath: "https://maxcoach.thememove.com/main/",
       addressList: [
         {
           type: "Street",
@@ -37,45 +41,45 @@ export default {
       exploreList: [
         {
           title: "Start Here",
-          link: "https://maxcoach.thememove.com/main/start-here/",
+          link: "start-here/",
         },
         {
           title: "Success Story",
-          link: "https://maxcoach.thememove.com/main/success-story/",
+          link: "success-story/",
         },
         {
           title: "Blog",
-          link: "https://maxcoach.thememove.com/main/blog/",
+          link: "blog/",
         },
         {
           title: "Courses",
-          link: "https://maxcoach.thememove.com/main/courses/",
+          link: "courses/",
         },
         {
           title: "About us",
-          link: "https://maxcoach.thememove.com/main/about-us-01/",
+          link: "about-us-01/",
         },
         {
           title: "Contact us",
-          link: "https://maxcoach.thememove.com/main/contact-us/",
+          link: "contact-us/",
         },
       ],
       informationList: [
         {
           title: "Membership",
-          link: "https://maxcoach.thememove.com/main/membership-account/membership-levels",
+          link: "membership-account/membership-levels",
         },
         {
           title: "Purchase Guide",
-          link: "https://maxcoach.thememove.com/main/purchase-guide",
+          link: "purchase-guide",
         },
         {
           title: "Privacy Policy",
-          link: "https://maxcoach.thememove.com/main/privacy-policy",
+          link: "privacy-policy",
         },
         {
           title: "Terms of services",
-          link: "https://maxcoach.thememove.com/main/terms-of-service",
+          link: "terms-of-service",
         },
       ],
       socialMediaList: [

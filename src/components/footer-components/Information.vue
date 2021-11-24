@@ -4,7 +4,7 @@
     <h5>Information</h5>
     <ul>
       <li v-for="(item, i) in informationList" :key="i">
-        <a :href="item.link">{{ item.title }}</a>
+        <a :href="mainPath + item.link">{{ item.title }}</a>
       </li>
     </ul>
   </div>
@@ -13,7 +13,7 @@
 <script>
 export default {
   name: "Information",
-  props: { informationList: Array },
+  props: { informationList: Array, mainPath: String },
 };
 </script>
 

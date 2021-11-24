@@ -3,7 +3,7 @@
     <h5>Explore</h5>
     <ul class="explore-list">
       <li v-for="(item, i) in exploreList" :key="i">
-        <a :href="item.link">{{ item.title }}</a>
+        <a :href="mainPath + item.link">{{ item.title }}</a>
       </li>
     </ul>
   </div>
@@ -12,7 +12,7 @@
 <script>
 export default {
   name: "Explore",
-  props: { exploreList: Array },
+  props: { exploreList: Array, mainPath: String },
 };
 </script>
 
