@@ -9,6 +9,7 @@
     padding: 40px;
     opacity: 0.5;
     transition: opacity 0.2s;
+    cursor: pointer;
     
     &.active{
       opacity: 1;

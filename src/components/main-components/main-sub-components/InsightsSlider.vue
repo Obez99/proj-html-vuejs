@@ -6,6 +6,7 @@
         :key="i"
         :review="reviewsList[i]"
         :currentActive="currentActive"
+        @click.native="changeActive(i)"
       ></Review>
     </div>
 

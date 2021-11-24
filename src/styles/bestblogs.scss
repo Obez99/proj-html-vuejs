@@ -40,6 +40,10 @@
     font-weight: bold;
     margin-bottom: 20px;
 
+    &:hover{
+      color:$primary-color;
+    }
+
     a,i{
       color:$dark-purple;
     }
