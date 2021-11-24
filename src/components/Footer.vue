@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <FooterLists></FooterLists>
+    <FooterLists :mainPath="mainPath"></FooterLists>
 
     <div>
       <p class="copyright-statement text-center">
@@ -15,6 +15,7 @@ import FooterLists from "./footer-components/FooterLists.vue";
 export default {
   name: "Footer",
   components: { FooterLists },
+  props: { mainPath: String },
 };
 </script>
 

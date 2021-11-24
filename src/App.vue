@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Header></Header>
-    <Main></Main>
-    <Footer></Footer>
+    <Main :mainPath="mainPath"></Main>
+    <Footer :mainPath="mainPath"></Footer>
   </div>
 </template>
 
@@ -16,6 +16,12 @@ export default {
     Header,
     Main,
     Footer,
+  },
+
+  data() {
+    return {
+      mainPath: "https://maxcoach.thememove.com/main/",
+    };
   },
 };
 </script>

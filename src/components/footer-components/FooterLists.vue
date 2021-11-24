@@ -21,9 +21,9 @@ import Information from "./Information.vue";
 export default {
   name: "FooterLists",
   components: { Address, Explore, Information },
+  props: { mainPath: String },
   data() {
     return {
-      mainPath: "https://maxcoach.thememove.com/main/",
       addressList: [
         {
           type: "Street",

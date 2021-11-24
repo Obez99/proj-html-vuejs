@@ -2,7 +2,7 @@
   <main>
     <Download></Download>
     <Courses></Courses>
-    <SmartTutoring></SmartTutoring>
+    <SmartTutoring :mainPath="mainPath"></SmartTutoring>
     <VideoSection></VideoSection>
     <TopLearners></TopLearners>
     <Statistics></Statistics>
@@ -35,6 +35,7 @@ export default {
     Newsletters,
     SideBar,
   },
+  props: { mainPath: String },
 };
 </script>
 
