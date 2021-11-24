@@ -6,7 +6,7 @@
     padding:30px;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: all 0.2s;
 
     h4{
       color:$primary-color;
@@ -14,6 +14,7 @@
 
     &:hover{
       background-color: white;
+      box-shadow: 1px 1px 20px 1px lightgray;
       .course-description{
         h5{
         transition: color 0.2s;
