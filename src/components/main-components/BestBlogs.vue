@@ -2,7 +2,10 @@
   <section style="background-color: #f5f1ed">
     <div class="container">
       <div class="row justify-content-between">
-        <InsightsList :mainPath="mainPath"></InsightsList>
+        <InsightsList
+          :mainPath="mainPath"
+          :insightsList="insightsList"
+        ></InsightsList>
 
         <Card
           v-for="(card, i) in cardsList"
@@ -35,6 +38,31 @@ export default {
           title: "Pocket-Sized Notebooks Hold Miniature Paintings",
           date: "May 15, 2020",
           views: "603 views",
+        },
+      ],
+      insightsList: [
+        {
+          title: "Become a Better Blogger: Content Planning",
+          link: this.mainPath + "become-a-better-blogger-content-planning",
+        },
+        {
+          title: "Promoting Your Online Business on Pinterest",
+          link: this.mainPath + "promoting-your-online-business-on-pinterest",
+        },
+        {
+          title: "Gamification and Game-Based Learning",
+          link: this.mainPath + "gamification-and-game-based-learning",
+        },
+        {
+          title: "Designing an Online Course from Expert's Perspective",
+          link:
+            this.mainPath +
+            "designing-an-online-course-from-experts-perspective",
+        },
+        {
+          title: "Why Online Courses Are the Future of Education",
+          link:
+            this.mainPath + "why-online-courses-are-the-future-of-education",
         },
       ],
     };
