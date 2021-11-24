@@ -7,21 +7,11 @@
     </div>
 
     <!--Reviews container!-->
-    <div class="reviews-container">
-      <Review
-        v-for="(review, i) in reviewsList"
-        :key="i"
-        :review="reviewsList[i]"
-      ></Review>
-    </div>
-
-    <!--Cards navigation dots!-->
-    <div class="reviews-nav-dots">
-      <i class="fa fa-circle active"></i>
-      <i class="fa fa-circle"></i>
-      <i class="fa fa-circle"></i>
-      <i class="fa fa-circle"></i>
-    </div>
+    <InsightsSlider
+      :currentActive="currentActive"
+      :reviewsList="reviewsList"
+      @changeActive="changeCurrentActive"
+    ></InsightsSlider>
 
     <!--Get started sub-section!-->
     <div class="container">
@@ -39,14 +29,16 @@
 </template>
 
 <script>
-import Review from "./main-sub-components/Review.vue";
+import InsightsSlider from "./main-sub-components/InsightsSlider.vue";
 export default {
   name: "TopLearners",
-  components: { Review },
+  components: { InsightsSlider },
   data() {
     return {
+      currentActive: 1,
       reviewsList: [
         {
+          id: 0,
           title: "It's a choice of quality for people with special needs",
           description:
             "I'm a very strict person so I require everything to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys just go me.",
@@ -58,6 +50,7 @@ export default {
           },
         },
         {
+          id: 1,
           title: "High level of efficiency and scientific teaching methods",
           description:
             "I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me.",
@@ -69,6 +62,7 @@ export default {
           },
         },
         {
+          id: 2,
           title:
             "Professional team of specialists and passionate mentors at reach",
           description:
@@ -82,6 +76,15 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    changeCurrentActive(index) {
+      for (let i = 0; i < this.reviewsList.length; i++) {
+        const currentReview = this.reviewsList[i];
+        if (currentReview.id === index) currentReview.active = true;
+        else currentReview.active = false;
+      }
+    },
   },
 };
 </script>
