@@ -6,7 +6,7 @@
     <VideoSection></VideoSection>
     <TopLearners></TopLearners>
     <Statistics></Statistics>
-    <BestBlogs></BestBlogs>
+    <BestBlogs :mainPath="mainPath"></BestBlogs>
     <Newsletters></Newsletters>
     <SideBar></SideBar>
   </main>

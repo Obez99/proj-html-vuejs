@@ -2,68 +2,46 @@
   <section style="background-color: #f5f1ed">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-4 most-viewed-list">
-          <div>
-            <p>ENJOYABLE INSIGHTS</p>
-            <h2>Most Viewed <a href="#">Best Blogs</a></h2>
-          </div>
+        <InsightsList :mainPath="mainPath"></InsightsList>
 
-          <ul>
-            <li>
-              <i class="fa fa-long-arrow-right"></i
-              ><a href="#">Become a Better Blogger: Content Planning</a>
-            </li>
-            <li>
-              <i class="fa fa-long-arrow-right"></i
-              ><a href="#">Promoting Your Online Business on Pinterest</a>
-            </li>
-            <li>
-              <i class="fa fa-long-arrow-right"></i
-              ><a href="#">Gamification and Game-Based Learning</a>
-            </li>
-            <li>
-              <i class="fa fa-long-arrow-right"></i
-              ><a href="#"
-                >Designing an Online Course from Expert's Perspective</a
-              >
-            </li>
-            <li>
-              <i class="fa fa-long-arrow-right"></i
-              ><a href="#">Why Online Courses Are the Future of Education</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-3 insight-card">
-          <img src="../../assets/artist-blog-03-480x352.jpeg" alt="" />
-          <div class="insight-card-body">
-            <p>ARTIST</p>
-            <h5>Brush Strokes Energize Trees in Paintings</h5>
-            <span><i class="fa fa-calendar-o"></i>May 15, 2020</span>
-            <span><i class="fa fa-eye"></i>688 views</span>
-          </div>
-        </div>
-
-        <div class="col-3 insight-card">
-          <img src="../../assets/artist-blog-01-480x352.jpg" alt="" />
-          <div class="insight-card-body">
-            <p>ARTIST</p>
-            <h5>Pocket-Sized Notebooks Hold Miniature Paintings</h5>
-            <span><i class="fa fa-calendar-o"></i>May 15, 2020</span>
-            <span><i class="fa fa-eye"></i>603 views</span>
-          </div>
-        </div>
+        <Card
+          v-for="(card, i) in cardsList"
+          :key="i"
+          :card="cardsList[i]"
+        ></Card>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import InsightsList from "./main-sub-components/InsightsList.vue";
+import Card from "./main-sub-components/Card.vue";
 export default {
   name: "BestBlogs",
+  components: { InsightsList, Card },
+  props: { mainPath: String },
+  data() {
+    return {
+      cardsList: [
+        {
+          image: require("../../assets/artist-blog-03-480x352.jpeg"),
+          title: "Brush Strokes Energize Trees in Paintings",
+          date: "May 15, 2020",
+          views: "688 views",
+        },
+        {
+          image: require("../../assets/artist-blog-01-480x352.jpg"),
+          title: "Pocket-Sized Notebooks Hold Miniature Paintings",
+          date: "May 15, 2020",
+          views: "603 views",
+        },
+      ],
+    };
+  },
 };
 </script>
 
 <style lang="scss">
 @import "../../styles/bestblogs.scss";
-</style>
+</style> 
