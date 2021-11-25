@@ -37,7 +37,7 @@ export default {
           linkRef: this.mainPath + "about-us-03",
         },
         {
-          image: require("../../assets/home-2-image-box-01.png"),
+          image: require("../../assets/about-us-02-image-box-02.png"),
           title: "Cloud Storage",
           description:
             "You can store online lessons via online cloud or download to your device and revise lessons on the way.",
@@ -45,7 +45,7 @@ export default {
           linkRef: this.mainPath + "about-us-03",
         },
         {
-          image: require("../../assets/home-2-image-box-01.png"),
+          image: require("../../assets/home-2-image-box-03.png"),
           title: "Multimedia Channels",
           description:
             "We provide study materials with various formats: video, audio, slides, doc, prints, books and applications.",

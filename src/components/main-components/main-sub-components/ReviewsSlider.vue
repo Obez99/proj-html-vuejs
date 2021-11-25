@@ -26,7 +26,7 @@
 <script>
 import Review from "./Review.vue";
 export default {
-  name: "InsightsSlider",
+  name: "ReviewsSlider",
   components: { Review },
   props: { reviewsList: Array, currentActive: Number },
 

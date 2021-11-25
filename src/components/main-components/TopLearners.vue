@@ -7,11 +7,11 @@
     </div>
 
     <!--Reviews container!-->
-    <InsightsSlider
+    <ReviewsSlider
       :currentActive="currentActive"
       :reviewsList="reviewsList"
       @changeActive="changeCurrentActive"
-    ></InsightsSlider>
+    ></ReviewsSlider>
 
     <!--Get started sub-section!-->
     <div class="container">
@@ -29,10 +29,10 @@
 </template>
 
 <script>
-import InsightsSlider from "./main-sub-components/InsightsSlider.vue";
+import ReviewsSlider from "./main-sub-components/ReviewsSlider.vue";
 export default {
   name: "TopLearners",
-  components: { InsightsSlider },
+  components: { ReviewsSlider },
   data() {
     return {
       currentActive: 1,
@@ -41,7 +41,7 @@ export default {
           id: 0,
           title: "It's a choice of quality for people with special needs",
           description:
-            "I'm a very strict person so I require everything to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys just go me.",
+            "I'm a very strict person so I require everything to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys just got me.",
           active: false,
           author: {
             name: "Florence Themes",
