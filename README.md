@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an important project I worked on, it is a clone of the '**MaxCoach**' **website** made in **Vue CLI**.<br>
+This is an important project I worked on, it is a clone of the '**MaxCoach**' website made in **Vue CLI**.<br>
 I created **various comunicating components**, from the header to the footer.
 
 ## Features
