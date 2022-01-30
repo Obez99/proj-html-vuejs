@@ -11,7 +11,7 @@ I created **various comunicating components**, from the header to the footer.
 - **Various effects decoration**.
 - **Dynamic listing** on every component.
 - **Dynamic pricing** in courses section ('**Free**' without entering a value).
-- **Working carousel**.
+- **Working slider**.
 
 ## Screenshots
 
